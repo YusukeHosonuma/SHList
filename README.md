@@ -18,11 +18,12 @@ list.count           // => 3
 list.tail.count      // => 2
 list.tail.tail.count // => 2
 
-list.asArray() ["Hello", 42, true] as [Any]
+list.asArray() // => ["Hello", 42, true] as [Any]
 
 func f(a1: String, a2: Int, a3: Bool) -> String {
     "\(a1),\(a2),\(a3)"
 }
+
 list.apply(f) // => "Hello,42,true"
 ```
 
