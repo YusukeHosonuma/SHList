@@ -38,11 +38,11 @@ lint: ## cocoapods - lint podspec
 
 .PHONY: release
 release: ## cocoapods - release
-	bundle exec pod trunk push Flatten.podspec
+	bundle exec pod trunk push SHList.podspec
 
 .PHONY: info
 info: ## cocoapods - show trunk information
-	bundle exec pod trunk info Flatten
+	bundle exec pod trunk info SHList
 
 .PHONY: integration-test
 integration-test: ## Integration test by Example app
