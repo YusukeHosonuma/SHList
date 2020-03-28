@@ -10,6 +10,8 @@ SHList is HList for Swift by statically meta-programming.
 ![Screenshot](https://raw.githubusercontent.com/YusukeHosonuma/SHList/master/Images/screenshot.png)
 
 ```swift
+let list = HList("Hello", 42, true)
+
 list.head           // => "Hello"
 list.tail.head      // => 42
 list.tail.tail.head // => true
