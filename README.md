@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/YusukeHosonuma/SHList)](https://github.com/YusukeHosonuma/SHList/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Ftobi462)](https://twitter.com/tobi462)
 
-SHList is HList for Swift as statically meta-programming.
+SHList is HList for Swift by statically meta-programming.
 
 ![Screenshot](https://raw.githubusercontent.com/YusukeHosonuma/SHList/master/Images/screenshot.png)
 
